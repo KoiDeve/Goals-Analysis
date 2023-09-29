@@ -30,7 +30,7 @@
 
 ![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/05_da_correlation.PNG?raw=true)
 
- This chart is interesting, because it measures the correlation on a scale of -1.0 to 1.0 between each goal. The most notable piece of information here is that the journaling category "JOURN" is moderately correlated with most of the other goals that are in this data set. This can be interprited as either two things:
+ This chart is interesting, because it measures the correlation on a scale of -1.0 to 1.0 between each goal. The most notable piece of information here is that the journaling category "**JOURN**" is moderately correlated with most of the other goals that are in this data set. This can be interprited as either two things:
 
 **1.** Every time I journal, the chances that I do other goals will go up
 **2.** If I don't do the goals for the day, the chance I will journal goes down 
@@ -41,11 +41,11 @@
 
 ![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/06_da_average.PNG?raw=true)
 
- This chart shows the average amount of tasks completed in the last 5 days. An example for context would be at 06/01/23 (the "June" label seen in the chart), on average from the last 5 days (so in this case, it would be the average of tasks completed for the day from May 28th to June 1st. The reason why I scaled it up to five days is due to the lack of consistency if it were to be seen from the daily perspective. One thing I noticed from this chart is that overall I have never had an instance where I completed on average 7 tasks a day for 5 days straight, meaning that there isn't a sufficient consistency towards me completing my goals. In order to take a better look, I decided to do the same analysis, but on the individual goals themselves. See below:
+ This chart shows the average amount of tasks completed in the last 5 days. An example for context would be at 06/01/23 (the "**June**" label seen in the chart), on average from the last 5 days (so in this case, it would be the average of tasks completed for the day from May 28th to June 1st. The reason why I scaled it up to five days is due to the lack of consistency if it were to be seen from the daily perspective. One thing I noticed from this chart is that overall I have never had an instance where I completed on average 7 tasks a day for 5 days straight, meaning that there isn't a sufficient consistency towards me completing my goals. In order to take a better look, I decided to do the same analysis, but on the individual goals themselves. See below:
 
 ![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/07_da_average_indiv.PNG?raw=true)
 
- As we can see here we are able to see on an individual level of the frequency of completion for 5-day periods. Some things we can note while looking at this is that any instances of jagged behaviour can be seen as inconsistent completion, and any instance of slow transitions can indicate more consistent behaviour. For example, "DUO1" has mostly consistent behaviour with the exception of an instance right before August. "BED" has the same consistent behaviour, in the case that I am consistently not going to bed on time. The ones that strike me the most insteresting are the "READ" and "JOURNAL" ones, which seem to be inconsistent in several mannerisms.
+ As we can see here we are able to see on an individual level of the frequency of completion for 5-day periods. Some things we can note while looking at this is that any instances of jagged behaviour can be seen as inconsistent completion, and any instance of slow transitions can indicate more consistent behaviour. For example, "**DUO1**" has mostly consistent behaviour with the exception of an instance right before August. "**BED**" has the same consistent behaviour, in the case that I am consistently not going to bed on time. The ones that strike me the most insteresting are the "**READ**" and "**JOURNAL**" ones, which seem to be inconsistent in several mannerisms.
 
  Overall, this was a really interesting project. Based on the information here I determined that these would be the possible next steps for me to do personally:
 - Prioritize journaling. For the next 4 months (September - December), I plan on achieving a consistent journaling frequency of 70% for each month. 
@@ -56,4 +56,6 @@
 - Increase the data set to incorporate times of completion for each task.
 - Feeding this data into Chat-GPT using an OpenAI API to get a better understanding of the data (I originally tried this, but got vague results since the model wasn't fine-tuned to my specific needs).
 
- This is the end of the report for now. I'll create an update to this soon once I curate more data. _**Thank you for reading!**_ 
+ This is the end of the report for now. I'll create an update to this soon once I curate more data.
+ 
+ _**Thank you for reading!**_ 
