@@ -6,7 +6,7 @@ This project was created in order to notice any patterns, trends, or other inter
 
 As can be seen in the visualization, we will be focusing on the gray data (not the purple), which lists all of my goals for this year. In addition, I have cleaned the data and converted all of the T/F data into ones and zeroes respectively. An example of the clean data can be seen below:
 
-![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/03_cleaned_data.PNGraw=true)
+![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/03_cleaned_data.PNG?raw=true)
 
 Much better! This will allow greater ease in plotting and using this data. The following columns, or goals, are described below:
 
@@ -22,13 +22,13 @@ Much better! This will allow greater ease in plotting and using this data. The f
 
 Now that we have a better understanding of the data, we can look at some visualizations that I have created to better describe the data. Let's look at the first chart:
 
-![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/04_da_cumulative.PNGraw=true)
+![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/04_da_cumulative.PNG?raw=true)
 
 As we can see, this chart takes the total amount of times I did a task (or goal), and plot the total frequency of it throughout time. The data ranges from mid-april to the end of September, and that the ideal for each of these goals can be visualized along the line y = x.
 
 An important thing I noticed when I first created this graph was that a lot of these goals weren't actually even started until the middle of May, so what I've decided to do was reduce the data set to the date range of 5/20/23 - 8/31/23. From here, I decided to create a correlation chart to see if there were any patterns with the goals that I have set for myself:
 
-![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/05_da_correlation.PNGraw=true)
+![alt text](https://github.com/KoiDeve/Goals-Analysis/blob/main/Screenshots/05_da_correlation.PNG?raw=true)
 
 This chart is interesting, because it measures the correlation on a scale of -1.0 to 1.0 between each goal. The most notable piece of information here is that the journaling category "JOURN" is moderately correlated with most of the other goals that are in this data set. This can be interprited as either two things:
 
